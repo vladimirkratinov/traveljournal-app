@@ -1,7 +1,5 @@
 ### Travel Journal Challenge App
 
-Travel Blog prototype (Challenge App):
-
 1. Data array in separate .js file (JSON Object)
     - Title, Location, Google Maps link, start date, end date, description, image URL
 2. Use .map() and props
