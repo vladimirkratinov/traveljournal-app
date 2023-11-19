@@ -1,0 +1,78 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    place-items: center;
+    text-align: center;
+    gap: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.50);
+    background-color: #F55A5A;
+    color: white;
+    vertical-align: middle;
+    position: relative;
+    
+}
+
+.nav--logo {
+    margin-left: 40px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 45px;
+}
+
+.card--image {
+    border-radius: 15px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card--info {
+    margin-left: 19px;
+}
+
+.card--country {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.card--googleMapLink {
+    font-size: 15px;
+}
+
+.marker--logo {
+    width: 10px;
+    height: 15px;
+}
+
+.card--title {
+    margin-top: 0px;
+}
+
+.card--date {
+    margin-top: 0px;
+}
+
+.card--description {
+    font-size: 14px;
+}
